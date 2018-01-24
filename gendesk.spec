@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 
 Name:    gendesk
-Version: 0.6.5
+Version: 0.7
 Release: 1%{?gver}%{dist}
 Summary: Utility for generating desktop files
 Group:   Development/Tools
