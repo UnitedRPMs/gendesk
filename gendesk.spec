@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 
 Name:    gendesk
-Version: 1.0.1
+Version: 1.0.2
 Release: 1%{?gver}%{dist}
 Summary: Utility for generating desktop files
 Group:   Development/Tools
@@ -40,6 +40,9 @@ GOPATH=`pwd` go build
 
 
 %changelog
+
+* Sat Dec 22 2018 Unitedrpms Project <unitedrpms AT protonmail DOT com> - 1.0.2-1
+- Updated to 1.0.2
 
 * Tue Nov 20 2018 Unitedrpms Project <unitedrpms AT protonmail DOT com> - 1.0.1-1
 - Updated to 1.0.1
