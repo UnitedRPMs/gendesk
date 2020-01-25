@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 
 Name:    gendesk
-Version: 1.0.4
+Version: 1.0.5
 Release: 1%{?gver}%{dist}
 Summary: Utility for generating desktop files
 Group:   Development/Tools
@@ -42,6 +42,9 @@ go build -mod=vendor -buildmode=pie -gccgoflags="-s -w $LDFLAGS"
 
 
 %changelog
+
+* Sat Jan 25 2020 Unitedrpms Project <unitedrpms AT protonmail DOT com> - 1.0.5-1
+- Updated to 1.0.5
 
 * Wed Sep 18 2019 Unitedrpms Project <unitedrpms AT protonmail DOT com> - 1.0.4-1
 - Updated to 1.0.4
